@@ -9,6 +9,14 @@ This is a simple demo project illustrating the usage of the
 * Maven
 * Your Meplato Store API token
 
+## Install
+
+The demo comes with a local JAR that needs to be installed first:
+
+```
+$ mvn install:install-file -Dfile=lib/meplato-store2-2.0.2.jar -Dversion=2.0.2 -DgroupId=com.meplato -DartifactId=meplato-store2 -Dpackaging=jar
+```
+
 ## Compile
 
 Compile with:
