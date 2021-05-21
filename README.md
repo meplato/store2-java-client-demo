@@ -14,7 +14,7 @@ This is a simple demo project illustrating the usage of the
 The demo comes with a local JAR that needs to be installed first:
 
 ```sh
-mvn install:install-file -Dfile=lib/meplato-store2-2.0.2.jar -Dversion=2.0.2 -DgroupId=com.meplato -DartifactId=meplato-store2 -Dpackaging=jar
+mvn install:install-file -Dfile=lib/meplato-store2-2.1-SNAPSHOT.jar -Dversion=2.1-SNAPSHOT -DgroupId=com.meplato -DartifactId=meplato-store2 -Dpackaging=jar
 ```
 
 ## Compile
@@ -40,4 +40,4 @@ Catalog with ID=1234 has name Testkatalog.
 
 ## License
 
-Copyright (C) 2017 Meplato GmbH. All rights reserved.
+Copyright (C) 2017-present Meplato GmbH. All rights reserved.
